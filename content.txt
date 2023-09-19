@@ -1,0 +1,21 @@
+<!--Popup Modal -->
+
+<div class="modal fade" id="demoPritom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-md">
+	    <div class="modal-content">
+	        <button type="button" class="close" data-bs-dismiss="modal">
+	            <span aria-hidden="true">&times;</span>
+	        </button>
+		    <a target="_blank" href="https://crocmedia.snapforms.com.au/form/electrifying-australia-promotion-2023">
+		        <img src="{{asset('popup.png')}}" width="100%" height="300">
+		    </a>
+	    </div>
+	</div>
+</div>
+
+
+<script>
+    $(document).ready(function(){
+        setTimeout( function(){ $('#demoPritom').modal('show'); } , 4000 );
+    });
+</script>
